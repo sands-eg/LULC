@@ -43,7 +43,7 @@ def load_esa(year):
     
     data = data['lccs_class'].squeeze('time') # removing unnecessary time dimension
     
-    return data-
+    return data
     
     
 
