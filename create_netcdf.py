@@ -73,6 +73,11 @@ print(time[:])
 print(time.units)
 print(num2date(time[:], time.units))
 
+# assigning data to coordinate variables
+lat[:]=rows
+lon[:]=columns
+
+
 # checking final file
 print(ncfile)
 
